@@ -1,0 +1,96 @@
+body{
+  background-color: white;
+  
+}
+.app{
+  text-align: center;
+}
+.container{
+  background-color: rgb(232, 231, 237);
+  justify-content: center;
+  width: 50%;
+  margin-left: 26%;
+  margin-top: 2%;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+input[type=text],select{
+  width: 80%;
+  height: 8vh;
+  padding: 12px 20px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid#ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+ #add1{
+  width: 15%;
+  background-color: #4285F4;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+ }
+ #add1:hover{
+  background-color: #2569d6;
+ }
+ #remove1{
+  width: 15%;
+  position: absolute;
+  background-color: #DB4437;
+  color: white;
+  padding: 7px 20px;
+  margin-top: 23px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+ }
+ #remove1:hover{
+  background-color: #c53a2d;
+ }
+ #removeall{
+  position: relative;
+  width:18%;
+  background-color:#DB4437;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+ }
+ #removeall:hover{
+  background-color: #c53a2d;
+ }
+ .header{
+  width: 100%;
+  color: rgb(135, 133, 133);
+  font-size: 36px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ .listData{
+  color: black;
+  font-size: 14px;
+  margin-left: 20px;
+  background-color: rgb(207, 221, 233);
+  font-weight: bold;
+  text-align: left;
+  padding-left: 30px;
+  width: 48%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  border-radius: 10px;
+ }
+ .btn-position{
+  position: relative;
+  left: 11%;
+  top: -54px;
+ }
