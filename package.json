@@ -1,8 +1,8 @@
 {
-  "name": "todolist",
+  "name": "taskmate",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dpsdmh.github.io/todolist.github.io",
+  "homepage": "https://dpsdmh.github.io/TaskMate.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
