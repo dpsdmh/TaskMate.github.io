@@ -29,13 +29,13 @@ function removeAll(){
   return ( 
     <>
     <div className='container'>
-    <div className='header'>TO-DO LIST</div>
+    <div className='header'>TaskMate</div>
     <input type='text' placeholder='Add list' value={activity} 
   onChange={(e)=>setActivity(e.target.value)}/>
  
   
   
-  <button id='add1' onClick={addActivity}>Add</button> 
+ <button id='add1' onClick={addActivity}>Add</button> 
   
   {listData!==[] && listData.map((data, i)=>{
     return(
